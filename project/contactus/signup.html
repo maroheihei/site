@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <header>
+        <title>Sign Up</title>
+        <meta charset="utf_8">
+        <link rel="stylesheet" type="text/css" href="new.css">
+        
+    </header>
+    <body>
+        <nav class= "contener">
+            <img src = 'steve.png' onclick="document.location='../home/Home.html'">
+            <span class="span">pizza steve</span>
+            <ul>
+                 <li><a href="../home/Home.html">home</a></li>
+                <li><a href="../menu/menu.html">menu</a></li>
+                <li><a href="../contactus/NewCourse.html">contact us</a></li>
+                <li><a href="../feedback/feedback.html">feedback</a></li>
+                <li><a href="../contactus/signin.html">Log in</a></li>
+                <li><a href="../contactus/signup.html">sign up</a></li>
+            </ul>
+        </nav>  
+        <form class="field" action="../home/Home.html" autocomplete="off" onsubmit="return valid()" name="form1">
+            <legend id="s1">Sign up</legend>
+            <label for="name" class="form_words">Name</label><br>
+            <input id="text3" type="text" class="textbox" placeholder="Enter your Name" required><br>
+            <label for="e-mail" class="form_words">E-mail</label><br>
+            <input id="text1" type="text" class="textbox" placeholder="Enter E-mail" required><br>          
+            <label for="password" class="form_words">password</label><br>
+            <input id="text2" type="password" class="textbox" placeholder="Enter password" required><br>
+            <label id="warn" >Invalid E-mail or Password</label>
+            <input type="submit" name="button1" value="Sign up" id="bt1" >
+            <P id="note">Already have account? <a href="signin.html" class="special">Sign in</a></P>
+
+        </form>
+       <script src="miro.js"></script>
+    </body>
+</html>

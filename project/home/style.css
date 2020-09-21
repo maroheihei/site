@@ -1,0 +1,130 @@
+body{
+    background-image: url(images/img.jpg);
+    background-size: cover;
+}
+.container {
+    margin:auto;
+    width: 1000px;
+}
+.slider {
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.slider img{
+    height: 700px;
+    width: 100%;
+    margin:auto;
+    background-repeat: no-repeat;
+}
+span{color:#fc5185;}
+
+.nav
+{
+  color: #fee2b3;
+  text-shadow: 1px 0px black;
+  font-weight: bold;
+}
+.contener
+{
+  background-color:#87431d;
+  position: absolute;
+  height: 46px;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  position: fixed;
+  z-index: 11;
+}
+.contener img
+{
+  height:45px;
+  width: 60px;
+  margin:3px 5px; 
+}
+.contener span
+{
+  position: relative;
+  margin:5px;
+  bottom: 15px;
+  font-size: 30px;
+}
+.contener a
+{
+  display: inline-block;
+  color: #fee2b3;
+  text-decoration: none;
+  padding: 13px 15px;
+  height: 20px;
+  line-height:20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contener a:hover
+{
+  background-color: #fa7d09;
+}
+.contener ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: right;
+}
+.contener li
+{
+  float: left;
+}
+.contant {
+    background-color: rgba(54, 79, 107,0.7);
+    width: 1000px;
+    height: 300px;
+    margin:auto;
+}
+.contant .pic img {
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 60px;
+    float: left;
+}
+.contant .info {
+    padding: 20px;
+    text-align: left;
+    float: left;
+    color: #3fc1c9;
+}
+p{
+    margin: auto;
+    padding: inherit;
+    font-size: 20px;
+    text-align: left;
+    color: #f5f5f5;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.b1{
+    margin-right: 90px;
+    margin-top: 11%;
+    height: 120px;
+    width: 120px;
+    background-image: url(images/next4.png);
+    background-size:contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    float: right;
+}
+button:hover {
+    margin-right: 80px;
+    margin-top: 10%;
+    height: 140px;
+    width: 140px;
+}
+button:active{
+    margin-right: 90px;
+    margin-top: 11%;
+    height: 120px;
+    width: 120px;
+}

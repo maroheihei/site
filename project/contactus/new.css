@@ -1,0 +1,160 @@
+body{
+    background-image: url("re.jpg");
+    background-size: auto ;
+    background-position: center;
+    overflow: auto;
+ }
+ .contener
+{
+  background-color:#87431d;
+  position: absolute;
+  height: 46px;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  position: fixed;
+  z-index: 11;
+}
+.contener img
+{
+  height:45px;
+  width: 60px;
+  margin:3px 5px; 
+}
+.contener span
+{
+  position: relative;
+  margin:5px;
+  bottom: 15px;
+  font-size: 30px;
+}
+.contener a
+{
+  display: inline-block;
+  color: #fee2b3;
+  text-decoration: none;
+  padding: 13px 15px;
+  height: 20px;
+  line-height:20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contener a:hover
+{
+  background-color: #fa7d09;
+}
+.contener ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: right;
+}
+.contener li
+{
+  float: left;
+}
+ 
+ 
+ iframe{
+                
+    overflow: hidden;
+    margin-left:3%;
+}
+#p1{
+    font-size: 35px;
+    color:#fee2b3;
+    font-weight: 700;
+    text-align: center;
+}
+.info{
+    font-size: 25px;
+    margin-left: 3%;
+    font-weight: 600;
+    color:#fee2b3;
+}
+.img:hover{
+    opacity: 70%;
+}
+
+#div3{
+    width: 100ch;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 50ch;
+    border-radius: 50px;
+}
+#div4{
+    margin-left: 4%;
+}
+.special{
+    color: khaki;
+    text-decoration: none;
+    font-size:x-large;
+}
+.special:hover
+{
+    color: #87431d;
+}
+.field{
+    height: auto;
+    width:625px;
+    color:#fee2b3;
+    margin-top: 8%;
+    margin-left: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 200%;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+#bt1{
+background-color:black;
+color: #fee2b3;
+font-size: 90%;
+padding-left: 100px;
+padding-right: 100px;
+margin-top: 10px;
+border-radius: 5ch;
+margin-left: 150px;
+outline-style: none;
+}
+.textbox{
+    outline-style: none;
+   width: 50ch;
+   height: 3ch;
+   font-size: 60%;
+   color:#fee2b3 ;
+   border-bottom-width: 3px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom-color:#fee2b3;
+   background: rgba(0, 0, 0, 0.0);
+   margin-bottom: 5px;
+   margin-left: 40px;
+   margin-right: auto;
+   overflow: auto;
+}
+.span
+{
+  color: #fee2b3;
+  text-shadow: 1px 0px black;
+  font-weight: bold;
+}
+#note{
+    font-size: 20px;
+    text-align: center;
+}
+.form_words{
+    margin-left: 40px;
+}
+#s1{
+    text-align: center;
+}
+#warn{
+    font-size: 1ch;
+    visibility: hidden;
+    color:#fee2b3;
+    margin-left: 5ch;
+}

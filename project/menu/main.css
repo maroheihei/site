@@ -1,0 +1,211 @@
+body
+{
+    background-color: #2f2519;
+}
+h1
+{
+  color: #f0a500;
+  text-shadow: 1px 1px #d57149;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "times new roman" , tahoma;
+  width: 100%;
+  margin: 40px 0px;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.parent
+{
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top:150px;
+}
+div.parent > div
+{
+  background-color: #ff4301;
+  width: 130px;
+  height: 250px;
+  margin: 15px;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+}
+div.parent > div:hover
+{
+  border: 4px solid #fa7d09;
+  border-radius: 20px;
+}
+.parent img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3px;
+  width: 70%;
+}
+.pizza
+{
+  margin-left: 10px;
+  color: #1a1c20;
+  font-weight: bold;
+  font-size: 15px;
+}
+#description
+{
+  margin-left: 10px;
+  color: #1a1c20;
+  font-size: 8px;
+}
+input
+{
+  background-color: #fa7d09;
+  width: 80px;
+  height: 10px;
+  margin: 5px 20px;
+  color: #1a1c20;
+}
+.parent div button
+{
+  border: 2px solid #fa7d09;
+  color: #fa7d09;
+  text-shadow: 1px 0px black;
+  box-shadow: 1px 1px black;
+  border-radius: 5px;
+  margin-left: 30px;
+  width: 50%;
+  height:20px ;
+}
+.parent div button:hover
+{
+  background-color: #fa7d09;
+  color:white;
+}
+form
+{
+  position:absolute;
+  bottom: 5px;
+}
+span
+{
+  color: #fee2b3;
+  text-shadow: 1px 0px black;
+  font-weight: bold;
+  
+}
+.price
+{
+  margin-left: 45px;
+}
+/*-------------------------------------------------------*/
+
+.contener
+{
+  background-color:#87431d;
+  position: absolute;
+  height: 46px;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  position: fixed;
+  z-index: 11;
+}
+.contener img
+{
+  height:45px;
+  width: 60px;
+  margin:3px 5px; 
+}
+.contener span
+{
+  position: relative;
+  margin:5px;
+  bottom: 15px;
+  font-size: 30px;
+}
+.contener a
+{
+  display: inline-block;
+  color: #fee2b3;
+  text-decoration: none;
+  padding: 13px 15px;
+  height: 20px;
+  line-height:20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contener a:hover
+{
+  background-color: #fa7d09;
+}
+.contener ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: right;
+}
+.contener li
+{
+  float: left;
+}
+
+.order1
+{
+  border: none;
+  color: white;
+  background-color: #cf1b1b;
+  text-shadow: 1px 0px black;
+  box-shadow: 2px 2px black;
+  border-radius: 3px;
+  width: 90px;
+  height:35px;
+    margin-top: 50px;
+  margin-left: 720px;
+}
+.order1:hover
+{
+  background-color: #900d0d; 
+}
+.bu
+{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  
+}
+.nada {
+    background-image: url(images/pexels-edward-eyer-1049620.jpg);
+    background-size: cover;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nada p {
+    font-size: 40px;
+}
+  
+.cont{
+    
+    background-color: rgba(254, 226, 179,0.7);
+    margin: center;
+    padding-left: 20px;
+    
+}
+.nada input{
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 20px;
+    
+}
+.nada span
+{
+  color: #ff5722;
+  text-shadow: 1px 0px black;
+  font-weight: bold;
+  
+}
